@@ -1,0 +1,265 @@
+.body {
+  overflow-x: hidden;
+}
+
+
+.header {
+  border: none;
+  box-shadow: none;
+}
+
+.logo-img {
+  align-items: center;
+  margin-top: 20px;
+}
+
+.left-side {
+  align-items: end;
+}
+
+.header-social-icons {
+  position: relative;
+  left: 10px;
+  top: -4px;
+  margin-right: 20px;
+}
+
+.chat-box {
+  left: 20px;
+}
+
+
+.bg-img {
+  position: relative;
+  left: 451px;
+  top: 20px;
+  height: 600px;
+  display: inline-block;
+
+}
+
+.main-section {
+  background: url(https://logodesignwing.com/lp-5/assets/images/hero-bg-line.svg) no-repeat center / cover,
+    url(https://logodesignwing.com/lp-5/assets/images/hero-bg.webp) no-repeat center / cover,
+    #197ea5;
+  display: block;
+  position: relative;
+  top: -48px;
+  height: 668px;
+
+}
+
+.text1 {
+  position: relative;
+  top: -428px;
+  left: 74px;
+
+}
+
+.box {
+  position: relative;
+  top: -548px;
+  left: 425px;
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 30px;
+  color: #d63855;
+  line-height: 1;
+
+  text-align: center;
+}
+
+.rs {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 60px;
+}
+
+.text2 {
+  position: relative;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  top: -440px;
+  left: 71px;
+  text-align: start;
+  line-height: 1;
+
+}
+
+.text {
+  top: -100px;
+}
+
+
+
+.items {
+  position: relative;
+  top: -492px;
+  left: 69px;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.ret {
+  position: relative;
+  top: -361px;
+  left: -262px;
+  display: inline-block;
+}
+
+.box3 {
+  position: relative;
+  top: -475px;
+  left: 71px;
+  width: 20px;
+  height: 50px;
+  display: flex;
+
+
+}
+
+.form-box {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  top: 140px;
+  left: 410px;
+
+}
+
+.discount-box {
+  background-color: #d63855;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border: 4px solid #ffffff;
+
+}
+
+.search {
+  font-weight: bold;
+}
+
+.details {
+  position: relative;
+  top: -57px;
+  color: white;
+  font-weight: bolder;
+  background-color: black;
+  margin-left: -40px;
+  margin-right: -40px;
+
+
+
+}
+
+.form {
+  position: relative;
+  top: -35px;
+  padding-right: 145px;
+  padding-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  /* Makes it rounded */
+  outline: none;
+  text-align: start;
+
+
+
+}
+
+.submit {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #d63855;
+  color: white;
+  border: none;
+  border-radius: 90px;
+  /* This makes it rounded */
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  top: -26px;
+}
+
+.form0 {
+  width: 400px;
+  height: 329px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  top: 140px;
+  left: 890px;
+
+
+}
+
+.slider2 {
+  position: relative;
+  top: -48px;
+  border: none;
+}
+
+.carousel .carousel-item {
+  transition: none;
+}
+
+.wavy {
+  position: relative;
+  width: 20px;
+  height: 81px;
+  top: 20px;
+  left: 20px;
+}
+
+.word {
+  position: relative;
+  top: -5px;
+  left: 20px;
+  padding-bottom: 20px;
+
+}
+ .word2 {
+    font-size: clamp(30px, 4vw, 70px);
+    font-weight: 900;
+    text-align: center;
+}
+
+.flex-container {
+position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* flex-flow: nowrap; */
+  flex-wrap: nowrap;
+  top: 60px;
+  background-color: #ffffff;
+  height: 100%;
+  padding: 15px;
+  color: black;
+  
+}
+
+.custom-btn:hover {
+  border-color: red;             /* Red border on hover */
+}
+
+.custom-btn {
+  border: 2px solid black;       /* Black border by default */
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: border-color 0.3s ease; /* Smooth transition */
+}
